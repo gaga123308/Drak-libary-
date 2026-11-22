@@ -2,7 +2,7 @@ ESSA LIBARY FOI FEITA POR GAGADEV DONO DO DRAK HUB
 # NOSSO DISCORD : https://discord.gg/Wb6xmQHSN 
 
 # INSTALAÇÃO 
-local draklib = loadstring(game:HttpGet("https://raw.githubusercontent.com/gaga123308/Draklibary/refs/heads/main/main.lua"))()({
+  local draklib = loadstring(game:HttpGet("https://raw.githubusercontent.com/gaga123308/Draklibary/refs/heads/main/main.lua"))()({
 
 # NAME
     Title = "Drak Hub",
@@ -79,7 +79,7 @@ se quiser colocar nomes de usuário coloque o código ali ou pede uma ia
 })
 
 # SECAO
-  Tab1:CreateSection("Seção de Configurações")
+     Tab1:CreateSection("Seção de Configurações")
 
 # Exemplo 
-  link : loadstring(game:HttpGet("https://raw.githubusercontent.com/gaga123308/Draklibaryexemple/refs/heads/main/exemple"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/gaga123308/Draklibaryexemple/refs/heads/main/exemple"))()
