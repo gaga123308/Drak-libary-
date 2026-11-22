@@ -8,7 +8,7 @@ ESSA LIBARY FOI FEITA POR GAGADEV DONO DO DRAK HUB
     Title = "Drak Hub",
     SubTitle = "v1.0",
     Logo = "136120392548048" -- ID da imagem que aparece no botão flutuante de minimizar
-})
+  })
 
 
 # ABAS
@@ -19,19 +19,19 @@ ESSA LIBARY FOI FEITA POR GAGADEV DONO DO DRAK HUB
 	Title = "nome",
 	Link = "https://discord.gg/seu-convite",
 	ImageId = "seu id *não precisa colocar rbx do o id"
-})
+  })
 # BUTÃO AND TOGGLE 
      Tab1:CreateButton({
 	Name = "Nome do Botão",
 	Script = "print('Botão clicado!')"
-})
+  })
 
 # segunda opção 
     Tab1:CreateButton({
 	Name = "Nome do Botão",
 	Description = "Descrição do que o botão faz",
 	Script = 'loadstring(game:HttpGet(""))()'
-})
+  })
 
     Tab1:CreateToggle({
 	Name = "Nome do Toggle",
@@ -39,7 +39,7 @@ ESSA LIBARY FOI FEITA POR GAGADEV DONO DO DRAK HUB
 	Callback = function(estado)
 		print("Status do Toggle:", estado) -- 'estado' retorna true (ligado) ou false (desligado)
 	end
-})
+  })
 
 # Drompdow 
     Tab1:CreateDropdown({
@@ -49,7 +49,7 @@ ESSA LIBARY FOI FEITA POR GAGADEV DONO DO DRAK HUB
 	Callback = function(escolha)
 		print("Você selecionou:", escolha)
 	end
-})
+  })
 se quiser colocar nomes de usuário coloque o código ali ou pede uma ia
 
 # TOGGLE AND TEXTBOX AND PARÁGRAFO 
@@ -59,12 +59,12 @@ se quiser colocar nomes de usuário coloque o código ali ou pede uma ia
 	Callback = function(texto)
 		print("O usuário digitou:", texto)
 	end
-})
+  })
 
     Tab1:CreateParagraph({
 	Title = "Aviso Importante",
 	Content = "test"
-})
+  })
 
     Tab1:CreateSlider({
 	Name = "Velocidade (WalkSpeed)",
@@ -76,7 +76,7 @@ se quiser colocar nomes de usuário coloque o código ali ou pede uma ia
 		-- Exemplo prático aplicando no personagem:
 		-- game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = valor
 	end
-})
+  })
 
 # SECAO
      Tab1:CreateSection("Seção de Configurações")
