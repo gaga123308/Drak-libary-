@@ -10,25 +10,21 @@ local draklib = loadstring(game:HttpGet("https://raw.githubusercontent.com/gaga1
 })
 
 # ABAS
-
 local Tab1 = draklib:CreateTab("Home", "10709751939")
 
 # CARD DISCORD
-
 Tab1:CreateDiscord({
 	Title = "nome",
 	Link = "https://discord.gg/seu-convite",
 	ImageId = "seu id *não precisa colocar rbx do o id"
 })
 # BUTÃO AND TOGGLE 
-
 Tab1:CreateButton({
 	Name = "Nome do Botão",
 	Script = "print('Botão clicado!')"
 })
 
 # segunda opção 
-
  Tab1:CreateButton({
 	Name = "Nome do Botão",
 	Description = "Descrição do que o botão faz",
@@ -44,7 +40,6 @@ Tab1:CreateToggle({
 })
 
 # Drompdow 
-
 Tab1:CreateDropdown({
 	Name = "Nome do Dropdown",
 	Options = {"Opção 1", "Opção 2", "Opção 3"},
@@ -56,7 +51,6 @@ Tab1:CreateDropdown({
 se quiser colocar nomes de usuário coloque o código ali ou pede uma ia
 
 # TOGGLE AND TEXTBOX AND PARÁGRAFO 
-
 Tab1:CreateTextbox({
 	Name = "Digite algo",
 	PlaceholderText = "Escreva aqui...",
@@ -83,9 +77,7 @@ Tab1:CreateSlider({
 })
 
 # SECAO
-
 Tab1:CreateSection("Seção de Configurações")
 
 # Exemplo 
-
 link : loadstring(game:HttpGet("https://raw.githubusercontent.com/gaga123308/Draklibaryexemple/refs/heads/main/exemple"))()
