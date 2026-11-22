@@ -15,7 +15,7 @@ local draklib = loadstring(game:HttpGet("https://raw.githubusercontent.com/gaga1
      local Tab1 = draklib:CreateTab("Home", "10709751939")
 
 # CARD DISCORD
-  Tab1:CreateDiscord({
+           Tab1:CreateDiscord({
 	Title = "nome",
 	Link = "https://discord.gg/seu-convite",
 	ImageId = "seu id *não precisa colocar rbx do o id"
@@ -27,13 +27,13 @@ local draklib = loadstring(game:HttpGet("https://raw.githubusercontent.com/gaga1
 })
 
 # segunda opção 
- Tab1:CreateButton({
+    Tab1:CreateButton({
 	Name = "Nome do Botão",
 	Description = "Descrição do que o botão faz",
 	Script = 'loadstring(game:HttpGet(""))()'
 })
 
-Tab1:CreateToggle({
+    Tab1:CreateToggle({
 	Name = "Nome do Toggle",
 	Default = false,
 	Callback = function(estado)
@@ -42,7 +42,7 @@ Tab1:CreateToggle({
 })
 
 # Drompdow 
-Tab1:CreateDropdown({
+    Tab1:CreateDropdown({
 	Name = "Nome do Dropdown",
 	Options = {"Opção 1", "Opção 2", "Opção 3"},
 	Default = "Opção 1",
@@ -53,7 +53,7 @@ Tab1:CreateDropdown({
 se quiser colocar nomes de usuário coloque o código ali ou pede uma ia
 
 # TOGGLE AND TEXTBOX AND PARÁGRAFO 
-Tab1:CreateTextbox({
+    Tab1:CreateTextbox({
 	Name = "Digite algo",
 	PlaceholderText = "Escreva aqui...",
 	Callback = function(texto)
@@ -61,12 +61,12 @@ Tab1:CreateTextbox({
 	end
 })
 
-Tab1:CreateParagraph({
+    Tab1:CreateParagraph({
 	Title = "Aviso Importante",
 	Content = "test"
 })
 
-Tab1:CreateSlider({
+    Tab1:CreateSlider({
 	Name = "Velocidade (WalkSpeed)",
 	Min = 16,
 	Max = 100,
@@ -79,7 +79,7 @@ Tab1:CreateSlider({
 })
 
 # SECAO
-Tab1:CreateSection("Seção de Configurações")
+  Tab1:CreateSection("Seção de Configurações")
 
 # Exemplo 
-link : loadstring(game:HttpGet("https://raw.githubusercontent.com/gaga123308/Draklibaryexemple/refs/heads/main/exemple"))()
+  link : loadstring(game:HttpGet("https://raw.githubusercontent.com/gaga123308/Draklibaryexemple/refs/heads/main/exemple"))()
