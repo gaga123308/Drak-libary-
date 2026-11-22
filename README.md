@@ -6,20 +6,22 @@ local draklib = loadstring(game:HttpGet("https://raw.githubusercontent.com/gaga1
 
 # NAME
     Title = "Drak Hub",
-    SubTitle = "v1.0"
+    SubTitle = "v1.0",
+    Logo = "136120392548048" -- ID da imagem que aparece no botão flutuante de minimizar
 })
 
+
 # ABAS
-local Tab1 = draklib:CreateTab("Home", "10709751939")
+     local Tab1 = draklib:CreateTab("Home", "10709751939")
 
 # CARD DISCORD
-Tab1:CreateDiscord({
+  Tab1:CreateDiscord({
 	Title = "nome",
 	Link = "https://discord.gg/seu-convite",
 	ImageId = "seu id *não precisa colocar rbx do o id"
 })
 # BUTÃO AND TOGGLE 
-Tab1:CreateButton({
+     Tab1:CreateButton({
 	Name = "Nome do Botão",
 	Script = "print('Botão clicado!')"
 })
